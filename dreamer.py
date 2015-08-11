@@ -154,6 +154,7 @@ def main(inputdir, outputdir, preview, octaves, octave_scale, iterations, jitter
 
     # load images & sort them
     vidinput = os.listdir(inputdir)
+    vidinput.sort()
     #vidinput = natsort.natsorted(os.listdir(inputdir))
     vids = []
     var_counter = 1
